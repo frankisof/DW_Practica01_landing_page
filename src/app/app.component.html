@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Simple</title>
+</head>
+<body>
+
+    <!-- Barra Superior con Logo, Texto y Menú -->
+    <div class="navbar">
+        <img src="../assets/fondo.png" alt="Logo">
+        <span class="navbar-text">Mi Primer Web</span>
+        <nav class="navbar-menu">
+            <a href="#video">Video</a>
+            <a href="#imagenes">Imágenes</a>
+            <a href="#tutoriales">Tutoriales</a>
+            <a href="#ventas">Ventas</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </div>
+
+    <!-- Área de Video -->
+    <div id="video" class="video-section">
+        <iframe width="70%" height="400px" src="https://www.youtube.com/watch?v=_h-o1r6ooEo" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+    </div>
+
+    <!-- Área de Imágenes con Texto -->
+    <div id="imagenes" class="image-gallery">
+        <div class="image-item">
+            <img src="../assets/cabalgando_1920x1200_xtrafondos.com.jpg" alt="Imagen 1">
+            <p>Cabalgando</p>
+        </div>
+        <div class="image-item">
+            <img src="../assets/patitos_3840x2160_xtrafondos.com.jpg" alt="Imagen 2">
+            <p>Patitos</p>
+        </div>
+        <div class="image-item">
+            <img src="../assets/pexels-samianas-5642192.jpg" alt="Imagen 3">
+            <p>Montaña al Amanecer</p>
+        </div>
+    </div>
+
+    <!-- Sección de Tutoriales -->
+    <div id="tutoriales" class="tutorial-section">
+        <h2>Tutoriales</h2>
+        <div class="tutorial-item">
+            <h3>Cómo crear una página web</h3>
+            <p>Aprende a crear una página web desde cero con este tutorial fácil de seguir.</p>
+            <a href="#">Ver Tutorial</a>
+        </div>
+        <div class="tutorial-item">
+            <h3>Introducción a HTML y CSS</h3>
+            <p>Domina los fundamentos de HTML y CSS con este curso completo.</p>
+            <a href="#">Ver Tutorial</a>
+        </div>
+        <div class="tutorial-item">
+            <h3>JavaScript para Principiantes</h3>
+            <p>Empieza a programar en JavaScript con este tutorial para principiantes.</p>
+            <a href="#">Ver Tutorial</a>
+        </div>
+    </div>
+
+    <!-- Sección de Ventas -->
+    <div id="ventas" class="sales-section">
+        <h2>Productos en Venta</h2>
+        <div class="sales-item">
+            <h3>Curso de Desarrollo Web</h3>
+            <p>Conviértete en un desarrollador web profesional con nuestro curso completo.</p>
+            <a href="#">Comprar Ahora</a>
+        </div>
+        <div class="sales-item">
+            <h3>Plantillas de Sitios Web</h3>
+            <p>Obtén acceso a más de 50 plantillas de sitios web listas para usar.</p>
+            <a href="#">Comprar Ahora</a>
+        </div>
+        <div class="sales-item">
+            <h3>Libro de JavaScript</h3>
+            <p>Aprende JavaScript con nuestro libro guía paso a paso.</p>
+            <a href="#">Comprar Ahora</a>
+        </div>
+    </div>
+
+    <!-- Sección de Contacto -->
+    <div id="contacto" class="contact-section">
+        <h2>Contacto</h2>
+        <form action="https://example.com/formulario-contacto" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Footer con Descripción y Redes Sociales -->
+    <footer id="footer">
+        <p>© 2024 Mi Primer Web. Todos los derechos reservados.</p>
+        <p>Síguenos en:</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+            <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+</body>
+</html>
